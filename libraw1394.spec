@@ -1,7 +1,7 @@
 Summary:        Library providing low-level IEEE-1394 access
 Name:           libraw1394
 Version:        2.1.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 Group:          System Environment/Libraries
 Source:         http://www.kernel.org/pub/linux/libs/ieee1394/%{name}-%{version}.tar.xz
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1.0-2
+- Mass rebuild 2013-12-27
+
 * Mon Feb 25 2013 Jay Fenlason <fenlason@redhat.com> 2.1.0-1
 - New upstream vesion.
 
